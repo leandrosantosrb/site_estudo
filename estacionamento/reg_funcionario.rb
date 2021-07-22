@@ -1,3 +1,4 @@
+
 class funcionario
     attr_accessor :nome, :idade :cargo
 
