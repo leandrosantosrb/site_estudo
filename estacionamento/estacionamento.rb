@@ -3,7 +3,7 @@ REG_VEICULO = 2
 VER_VEICULO = 3
 SAIR = 4
 
-#puts "======= Bem vindo ao Q4ck's estacionamento."
+#puts "======= Bem vindo ao estacionamento."
 #puts
 
 def menu()

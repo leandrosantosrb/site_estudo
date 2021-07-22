@@ -1,4 +1,4 @@
-puts "======= Bem vindo ao Q4ck's estacionamento.======="
+puts "======= Bem vindo ao estacionamento.======="
 puts
 
 require_relative 'estacionamento'
