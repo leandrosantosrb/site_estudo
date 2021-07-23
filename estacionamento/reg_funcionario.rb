@@ -12,11 +12,11 @@ class Funcionario
 
     def reg_funcionario()
         print "Seu nome: "
-        self.nome = gets.chomp()
+        nome = gets.chomp()
         print "Sua idade: "
-        self.idade = gets.chomp()
+        idade = gets.chomp()
         print "Seu cargo: "
-        self.cargo = gets.chomp()
+        cargo = gets.chomp()
 
         puts "Funcionário #{nome} cadastrado com sucesso."
         puts
