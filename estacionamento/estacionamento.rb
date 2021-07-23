@@ -14,11 +14,14 @@ end
 
 def reg_funcionario()
     print "Nome: "
-    nome = nome.new.gets.chomp()
+    nome = gets.chomp()
     print "Idade: "
     idade = gets.chomp()
     print "Cargo: "
     cargo = gets.chomp()
+
+    puts "Funcionário #{nome} cadastrado."
+    puts
 
     return {nome: nome, idade: idade, cargo: cargo}
 end
@@ -44,10 +47,12 @@ def ver_veiculos(veiculos)
 
     veiculos.each do |veiculo|
         puts "#{veiculo[:modelo]} - #{veiculo[:cor]} - #{veiculo[:placa]}"
+        puts
 
     end
     if veiculos.empty?
         puts "Não há carros estacionados."
+        puts
     end
 end
 
@@ -71,6 +76,7 @@ loop do
 
     else
         puts "Opção inválida."
+        puts
     end
     
     opcao = menu()
